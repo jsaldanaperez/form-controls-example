@@ -1,0 +1,12 @@
+<form [formGroup]="formGroup">
+    <label>First name</label>
+    <input type="text" [formControl]="firstNameControl"/>
+    <hr/>
+    <label>Last name</label>
+    <input type="text" [formControl]="lastNameControl"/>
+
+
+    <hr/>
+    FullNameControl valid: {{formGroup.valid}}
+
+</form>
